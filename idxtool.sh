@@ -1,48 +1,48 @@
 #!/bin/bash
 
 # COLORS - REFINED THEME
-R="\e[1;31m"  # Red
-G="\e[1;32m"  # Green
-Y="\e[1;33m"  # Yellow
-B="\e[1;34m"  # Blue
-C="\e[1;36m"  # Cyan
-M="\e[1;35m"  # Magenta
-W="\e[1;37m"  # White
-D="\e[1;90m"  # Dark Gray
-N="\e[0m"     # Reset
+R="\e[1;31m"
+G="\e[1;32m"
+Y="\e[1;33m"
+C="\e[1;36m"
+W="\e[1;37m"
+D="\e[1;90m"
+N="\e[0m"
 
-# 7oq1_ BRANDED ASCII ART
+# 7oq1_ CUSTOM BLOCK ART
 print_logo() {
-    echo -e "\n${C}  â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•—${N}"
-    echo -e "${C}  â•‘${W}     â–“â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—  â–“â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—   â–“â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—  â–…â–ˆâ–ˆâ•—     â–…â–ˆâ–ˆâ•—     ${C}â•‘${N}"
-    echo -e "${C}  â•‘${W}    â•šâ•â•â•â•â–ˆâ–ˆâ•—â–’â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–’â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ•—    â–ˆâ–ˆâ–ˆâ–ˆâ•—    ${C}â•‘${N}"
-    echo -e "${C}  â•‘${W}       â–…â–ˆâ–ˆâ–ˆâ•”â•â–’â–ˆâ–ˆâ•‘  â–’â–ˆâ–ˆâ•‘â–’â–ˆâ–ˆâ•‘  â–’â–ˆâ–ˆâ•‘â•šâ•šâ–ˆâ–ˆâ•‘    â•šâ•šâ–ˆâ–ˆâ•‘    ${C}â•‘${N}"
-    echo -e "${C}  â•‘${W}     â–…â–ˆâ–ˆâ•”â•â•â• â–’â–ˆâ–ˆâ•‘  â–’â–ˆâ–ˆâ•‘â–’â–ˆâ–ˆâ•‘  â–’â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘      â–ˆâ–ˆâ•‘    ${C}â•‘${N}"
-    echo -e "${C}  â•‘${W}     â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•  â–ˆâ–ˆâ•‘â–…â–ˆâ–ˆâ•—  â–ˆâ–ˆâ•‘â–…â–ˆâ–ˆâ•—  ${C}â•‘${N}"
-    echo -e "${C}  â•‘${W}     â•šâ•â•â•â•â•â•â•â• â•šâ•â•â•â•â•â•  â•šâ•â•â•â•â•â•   â•šâ•â•â•šâ•â•  â•šâ•â•â•šâ•â•  ${C}â•‘${N}"
-    echo -e "${C}  â•šâ•â•â•â•â•â•â•Â­â•Â­â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•Â­â•Â­â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•${N}"
+    echo -e "${C}"
+    echo -e "░▒▓████████▓▒░░▒▓██████▓▒░ ░▒▓██████▓▒░   ░▒▓█▓▒░ "
+    echo -e "░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓████▓▒░ "
+    echo -e "        ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░ "
+    echo -e "       ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░ "
+    echo -e "       ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░ "
+    echo -e "      ░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░ "
+    echo -e "      ░▒▓█▓▒░  ░▒▓██████▓▒░ ░▒▓██████▓▒░   ░▒▓█▓▒░ "
+    echo -e "                             ░▒▓█▓▒░               "
+    echo -e "                              ░▒▓██▓▒░             "
     echo -e "${D}           Made by Jishnu | ${C}Modified by 7oq1_${N}\n"
 }
 
 print_header() {
     clear
     print_logo
-    echo -e "${C}â•—â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•—${N}"
-    echo -e "${C}â•‘${W}         âš™ï¸  DEVELOPMENT MANAGEMENT CONSOLE          ${C}â•‘${N}"
-    echo -e "${C}â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•Â­â•Â­â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•${N}\n"
+    echo -e "${C}-------------------------------------------------------${N}"
+    echo -e "${W}         [ DEVELOPMENT MANAGEMENT CONSOLE ]          ${N}"
+    echo -e "${C}-------------------------------------------------------${N}\n"
 }
 
 print_option() {
     local num="$1"
     local text="$2"
     local color="$3"
-    printf "  ${color}â— ${W}[${color}$num${W}]  %-32s ${color}â–¶${N}\n" "$text"
+    printf "  ${color}> ${W}[${color}$num${W}]  %-32s ${color}>>${N}\n" "$text"
 }
 
 print_status() {
-    echo -e "\n${C}â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬${N}"
-    echo -e "  ${G}âœ… STATUS:${N} $1"
-    echo -e "${C}â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬${N}\n"
+    echo -e "\n${C}-------------------------------------------------------${N}"
+    echo -e "  ${G}* STATUS:${N} $1"
+    echo -e "${C}-------------------------------------------------------${N}\n"
 }
 
 # MAIN MENU LOOP
@@ -54,8 +54,8 @@ while true; do
     print_option "3" "IDX VPS Maker" "$C"
     print_option "4" "Exit Console" "$R"
 
-    echo -e "\n${C}â•Â­â•â•â•â•â•â•â•â•â•â•â•â•Â­â•Â­â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•Â­â•Â­â•â•â•â•â•â•â•â•â•â•â•â•â•®${N}"
-    echo -ne "${C}â•°â–¶${W} Selection [1-4]: ${Y}"
+    echo -e "\n${C}  +---------------------------------------------------+${N}"
+    echo -ne "${C}  +-- Selection [1-4]: ${Y}"
     read op
     echo -ne "${N}"
     
@@ -64,34 +64,20 @@ while true; do
         clear
         print_logo
         print_status "Launching GitHub VPS Environment..."
-        
         RAM=15000; CPU=4; DISK_SIZE=100G
         CONTAINER_NAME=hopingboyz; IMAGE_NAME=hopingboyz/debain12
         VMDATA_DIR="$PWD/vmdata"
-        
         mkdir -p "$VMDATA_DIR"
-        echo -e "${C}â–¶${W} Config: ${G}$CPU Cores / $RAM MB RAM${N}\n"
-        
-        docker run -it --rm \
-          --name "$CONTAINER_NAME" \
-          --device /dev/kvm \
-          -v "$VMDATA_DIR":/vmdata \
-          -e RAM="$RAM" \
-          -e CPU="$CPU" \
-          -e DISK_SIZE="$DISK_SIZE" \
-          "$IMAGE_NAME"
-        
-        echo -ne "\n${C}â–¶${W} Press Enter to return...${N}"
+        echo -e "${C}*${W} Config: ${G}$CPU Cores / $RAM MB RAM${N}\n"
+        docker run -it --rm --name "$CONTAINER_NAME" --device /dev/kvm -v "$VMDATA_DIR":/vmdata -e RAM="$RAM" -e CPU="$CPU" -e DISK_SIZE="$DISK_SIZE" "$IMAGE_NAME"
+        echo -ne "\n${C}*${W} Press Enter to return...${N}"
         read
         ;;
-    
     2)
         clear
         print_logo
         print_status "Initializing IDX Development Setup..."
-        
         cd; rm -rf myapp flutter; mkdir -p vps123/.idx; cd vps123/.idx
-        
         cat <<EOF > dev.nix
 { pkgs, ... }: {
   channel = "stable-24.05";
@@ -104,33 +90,29 @@ while true; do
   };
 }
 EOF
-        echo -e "${G}âœ… .idx/dev.nix generated successfully.${N}"
-        echo -ne "\n${C}â–¶${W} Press Enter to return...${N}"
+        echo -e "${G}* .idx/dev.nix generated successfully.${N}"
+        echo -ne "\n${C}*${W} Press Enter to return...${N}"
         read
         ;;
-    
     3)
         clear
         print_logo
         print_status "Fetching Remote IDX Script..."
-        # Updated link here:
         bash <(curl -s https://raw.githubusercontent.com/7oq1/firebase-studio/refs/heads/main/vm.sh)
-        echo -ne "\n${C}â–¶${W} Press Enter to return...${N}"
+        echo -ne "\n${C}*${W} Press Enter to return...${N}"
         read
         ;;
-
     4)
         clear
         print_logo
-        echo -e "${C}  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”${N}"
-        echo -e "${C}  â”‚${W}       Session closed. System Terminated.        ${C}â”‚${N}"
-        echo -e "${C}  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜${N}"
+        echo -e "${C}  +---------------------------------------------------+${N}"
+        echo -e "${C}  |${W}       Session closed. System Terminated.        ${C}|${N}"
+        echo -e "${C}  +---------------------------------------------------+${N}"
         sleep 1.2
         exit 0
         ;;
-    
     *)
-        echo -e "${R}âš  Invalid selection!${N}"
+        echo -e "${R}! Invalid selection!${N}"
         sleep 1
         ;;
     esac
